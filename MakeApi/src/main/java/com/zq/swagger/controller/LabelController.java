@@ -7,7 +7,6 @@ import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
 import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 
