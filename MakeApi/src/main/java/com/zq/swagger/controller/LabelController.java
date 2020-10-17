@@ -37,7 +37,7 @@ public class LabelController {
      * @param labelId
      * @return
      */
-    //swaggerApi
+    //swaggerApi  好像没有也不影响
     @ApiOperation(value = "根据Id查找")
     @ApiImplicitParam(name = "labelId",value = "标签id",required = true,dataType = "String")
     @RequestMapping(value = "/{labelId}",method = RequestMethod.GET)
